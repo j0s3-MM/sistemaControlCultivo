@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sistemaControlCultivomodel", "sistemaControlCultivomodel\sistemaControlCultivomodel.vcxproj", "{1848570C-3970-4EE4-9320-DBEEAC43E3B4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sistemaControlCultivoView", "sistemaControlCultivoView\sistemaControlCultivoView.vcxproj", "{8CF8EBCE-CA78-468E-8D95-D253B42F9280}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sistemaControlCultivoController", "sistemaControlCultivoController\sistemaControlCultivoController.vcxproj", "{1895A54E-A899-41EE-B3BB-6D62824079EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{1848570C-3970-4EE4-9320-DBEEAC43E3B4}.Release|x64.Build.0 = Release|x64
 		{1848570C-3970-4EE4-9320-DBEEAC43E3B4}.Release|x86.ActiveCfg = Release|Win32
 		{1848570C-3970-4EE4-9320-DBEEAC43E3B4}.Release|x86.Build.0 = Release|Win32
+		{8CF8EBCE-CA78-468E-8D95-D253B42F9280}.Debug|x64.ActiveCfg = Debug|x64
+		{8CF8EBCE-CA78-468E-8D95-D253B42F9280}.Debug|x64.Build.0 = Debug|x64
+		{8CF8EBCE-CA78-468E-8D95-D253B42F9280}.Debug|x86.ActiveCfg = Debug|Win32
+		{8CF8EBCE-CA78-468E-8D95-D253B42F9280}.Debug|x86.Build.0 = Debug|Win32
+		{8CF8EBCE-CA78-468E-8D95-D253B42F9280}.Release|x64.ActiveCfg = Release|x64
+		{8CF8EBCE-CA78-468E-8D95-D253B42F9280}.Release|x64.Build.0 = Release|x64
+		{8CF8EBCE-CA78-468E-8D95-D253B42F9280}.Release|x86.ActiveCfg = Release|Win32
+		{8CF8EBCE-CA78-468E-8D95-D253B42F9280}.Release|x86.Build.0 = Release|Win32
+		{1895A54E-A899-41EE-B3BB-6D62824079EE}.Debug|x64.ActiveCfg = Debug|x64
+		{1895A54E-A899-41EE-B3BB-6D62824079EE}.Debug|x64.Build.0 = Debug|x64
+		{1895A54E-A899-41EE-B3BB-6D62824079EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{1895A54E-A899-41EE-B3BB-6D62824079EE}.Debug|x86.Build.0 = Debug|Win32
+		{1895A54E-A899-41EE-B3BB-6D62824079EE}.Release|x64.ActiveCfg = Release|x64
+		{1895A54E-A899-41EE-B3BB-6D62824079EE}.Release|x64.Build.0 = Release|x64
+		{1895A54E-A899-41EE-B3BB-6D62824079EE}.Release|x86.ActiveCfg = Release|Win32
+		{1895A54E-A899-41EE-B3BB-6D62824079EE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
