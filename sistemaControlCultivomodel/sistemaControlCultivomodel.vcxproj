@@ -120,7 +120,7 @@
     <ClCompile Include="actuador.cpp" />
     <ClCompile Include="planta.cpp" />
     <ClCompile Include="sensor.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="microcontrolador.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
