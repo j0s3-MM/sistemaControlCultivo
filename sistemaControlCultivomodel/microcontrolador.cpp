@@ -11,14 +11,14 @@ microcontrolador::microcontrolador(List<sensor^>^ listasensores, List<actuador^>
 	this->listasensores = listasensores;
 	this->listactuadores = listactuadores;
 }
-List<actuador^>^ microcontrolador::listactuadores(){
-	return this->listactuadores();
+List<actuador^>^ microcontrolador::getlistactuadores(){
+	return this->listactuadores;
 }
 void microcontrolador::setlistadeactuadores(List<actuador^>^ listactuadores) {
 	this->listactuadores = listactuadores;
 }
-List<sensor^>^ microcontrolador::listasensores(){
-	return this->listasensores();
+List<sensor^>^ microcontrolador::getlistasensores(){
+	return this->listasensores;
 }
 void microcontrolador::setlistasensores(List<sensor^>^ listasensores) {
 	this->listasensores = listasensores;

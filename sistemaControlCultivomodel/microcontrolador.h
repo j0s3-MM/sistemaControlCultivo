@@ -15,11 +15,11 @@ namespace sistemaControlCultivomodel {
 			microcontrolador();
 			microcontrolador(List<sensor^>^ listasensores, List<actuador^>^ listactuadores);
 
-			List<actuador^>^ listactuadores();
+			List<actuador^>^ getlistactuadores();
 			void setlistadeactuadores(List<actuador^>^ listactuadores);
 
 
-			List<sensor^>^ listasensores();
+			List<sensor^>^ getlistasensores();
 			void setlistasensores(List<sensor^>^ listactuadores);
 
 			//procesarLecturas();
