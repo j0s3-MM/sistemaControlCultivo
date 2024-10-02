@@ -81,6 +81,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -111,6 +113,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ProjectReference Include="..\sistemaControlCultivoController\sistemaControlCultivoController.vcxproj">
+      <Project>{1895a54e-a899-41ee-b3bb-6d62824079ee}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sistemaControlCultivomodel\sistemaControlCultivomodel.vcxproj">
+      <Project>{1848570c-3970-4ee4-9320-dbeeac43e3b4}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

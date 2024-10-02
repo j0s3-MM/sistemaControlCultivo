@@ -1,49 +1,48 @@
 #pragma once
-
+#include "planta.h"
 namespace sistemaControlCultivomodel {
 	
 	using namespace System;
+
 	ref class  sensor
 	{
 		protected:
-			int idsensor;
-			String^ tipoSensor;
-			float valorActual;
-			String^ unidadMedida;
-			String^ estado;
+			
+			String^ categoria;
+			planta^ planta;
+			double valorActual;
 			int frecuencia;
+			int voltajeOperacion;
+			String^ fechaInstalacion;
+			String^ proposito; 
 
 
 		public:
 
 			sensor();
-			sensor(int idsensor, String^ tipoSensor, float valorActual, String^ unidadMedida, String^ estado, int fecuencia);
+			sensor(String^ categoria, planta^ planta, double valorActual, int frecuencia, int voltajeOperacion, String^ fechaInstalacion, String^ proposito);
 			
-			int getidsensor();
-			void setidsensor(int idsensor);
+			String^ getplanta();
+			void setplanta(planta^ planta);
 
-			String^ gettipoSensor();
-			void settipoSensorl(String^ tiposensor);
+			String^ getcategoria();
+			void setcategoria(String^ categoria);
 
-			int getvalorActual();
-			void setvalroActual(float valorActual);
 
-			String^ getunidadMedida();
-			void setunidadMedida(String^ unidadMedida);
-
-			String^ getestado();
-			void setestado(String^ estado);
+			double getvalorActual();
+			void setvalorActual(double valorActual);
 
 			int getfrecuencia();
-			void setfrecuencia(int valorActual);
+			void setfrecuencia(int frecuencia);
 
-			/*
-			Metodos propios
-				leervalor()
-				verificarEstado();
-				desactivar()
-				
-			*/
+			int getvoltajeOperacion();
+			void setvoltajeOperacion(int voltajeOperacion);
+
+			String^ getfechaInstalacion();
+			void setfechaInstalacion(String^ fechaInstalacion);
+
+			String^ getproposito();
+			void setproposito(String^ proposito);
 	};
 
 }

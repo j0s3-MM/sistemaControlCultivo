@@ -112,15 +112,35 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="actuador.h" />
+    <ClInclude Include="bomba.h" />
+    <ClInclude Include="fruta.h" />
+    <ClInclude Include="lucesLed.h" />
     <ClInclude Include="microcontrolador.h" />
-    <ClInclude Include="Planta.h" />
+    <ClInclude Include="planta.h" />
+    <ClInclude Include="requerimiento.h" />
     <ClInclude Include="sensor.h" />
+    <ClInclude Include="sensorGas.h" />
+    <ClInclude Include="sensorHumedad.h" />
+    <ClInclude Include="sensorTemperatura.h" />
+    <ClInclude Include="tuberia.h" />
+    <ClInclude Include="ventilador.h" />
+    <ClInclude Include="verdura.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="actuador.cpp" />
+    <ClCompile Include="bomba.cpp" />
+    <ClCompile Include="fruta.cpp" />
+    <ClCompile Include="lucesLED.cpp" />
     <ClCompile Include="planta.cpp" />
+    <ClCompile Include="requerimiento.cpp" />
     <ClCompile Include="sensor.cpp" />
     <ClCompile Include="microcontrolador.cpp" />
+    <ClCompile Include="sensorGas.cpp" />
+    <ClCompile Include="sensorHumedad.cpp" />
+    <ClCompile Include="sensorTemperatura.cpp" />
+    <ClCompile Include="tuberia.cpp" />
+    <ClCompile Include="ventilador.cpp" />
+    <ClCompile Include="verdura.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
